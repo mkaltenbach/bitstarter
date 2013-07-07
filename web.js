@@ -1,4 +1,5 @@
 var express = require('express');
+var fs = require('fx');
 
 var app = express.createServer(express.logger());
 
